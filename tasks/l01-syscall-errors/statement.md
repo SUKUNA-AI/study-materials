@@ -42,7 +42,7 @@ std::int64_t file_size(const char* path);  // размер обычного фа
 
 ## Готово, когда
 - [ ] 10 из 10 тестов — OK.
-- [ ] Таблица `strace` для трёх программ — в `notes/linux/l1.md`.
+- [ ] Таблица `strace` для трёх программ — в `homework/u02/l01-syscall-errors.md`.
 - [ ] Ты объясняешь, почему `printf` не всегда вызывает `write`.
 
 ## Сдать

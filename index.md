@@ -121,7 +121,7 @@
 - [g-u04-d4-clone-record](tasks/g-u04-d4-clone-record/statement.md) — cpp, c++23, решение `solution.cpp` (версия пакета 2, отпечаток публичной части `3f5e96163c41`)
 - [k-s1-matmul-naive](tasks/k-s1-matmul-naive/statement.md) — cuda, c++20, решение `solution.cu` (версия пакета 2, отпечаток публичной части `9008e8f0d590`)
 - [k-s1-vadd-basics](tasks/k-s1-vadd-basics/statement.md) — cuda, c++20, решение `solution.cu` (версия пакета 2, отпечаток публичной части `61000abaf9a8`)
-- [l01-syscall-errors](tasks/l01-syscall-errors/statement.md) — linux, c++23, решение `solution.cpp` (версия пакета 2, отпечаток публичной части `feb9a2c24c79`)
+- [l01-syscall-errors](tasks/l01-syscall-errors/statement.md) — linux, c++23, решение `solution.cpp` (версия пакета 2, отпечаток публичной части `bcac7c054f7c`)
 - [l02-copy-file](tasks/l02-copy-file/statement.md) — linux, c++23, решение `solution.cpp` (версия пакета 3, отпечаток публичной части `74d7fb07e23a`)
 - [l03-read-outcomes](tasks/l03-read-outcomes/statement.md) — linux, c++23, решение `solution.cpp` (версия пакета 2, отпечаток публичной части `61a009f254d5`)
 - [l07-monotonic-time](tasks/l07-monotonic-time/statement.md) — linux, c++23, решение `solution.cpp` (версия пакета 2, отпечаток публичной части `65c8d3a0c51a`)
@@ -188,4 +188,4 @@
 | U51 | 2027-10-18 … 2027-10-24 | Сессия 4 «Госэкзамен»: два экзамена и защита капстоуна | [docs/curriculum.md](../docs/curriculum.md#u51--2027-w42--сессия-4-госэкзамен-два-экзамена-и-защита-капстоуна) | [https://study.sukuna.tech/week?unit=U51](https://study.sukuna.tech/week?unit=U51) |
 | U52 | 2027-10-25 … 2027-10-31 | Итоги года, итоговые практики K31/K32/K-new08 и план второго года | [docs/curriculum.md](../docs/curriculum.md#u52--2027-w43--итоги-года-итоговые-практики-k31k32k-new08-и-план-второго-года) | [https://study.sukuna.tech/week?unit=U52](https://study.sukuna.tech/week?unit=U52) |
 
-Версия курса: `course-2026-10-31-bc6b34b03da0`; reader показывает актуальную версию портала, которая может отличаться от твоей — расхождение видно в `python3 tools/workspace/course.py status`.
+Версия курса: `course-2026-10-31-5e44cd95daae`; reader показывает актуальную версию портала, которая может отличаться от твоей — расхождение видно в `python3 tools/workspace/course.py status`.
