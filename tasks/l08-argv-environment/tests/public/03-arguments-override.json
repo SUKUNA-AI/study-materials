@@ -1,0 +1,19 @@
+{
+  "name": "arguments-override",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "args": [
+      "--threads",
+      "8",
+      "--label",
+      "two words"
+    ],
+    "env_threads": "invalid",
+    "env_label": "old"
+  },
+  "expected": {
+    "threads": 8,
+    "label": "two words"
+  }
+}

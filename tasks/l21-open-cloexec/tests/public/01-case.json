@@ -1,0 +1,15 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "bytes": "abc"
+  },
+  "expected": {
+    "missing": false,
+    "cloexec": true,
+    "read_only": true,
+    "bytes": "abc",
+    "zero_fd_ok": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "rows": [
+      {
+        "name": "a",
+        "value": 2
+      },
+      {
+        "name": "long",
+        "value": -3
+      }
+    ]
+  },
+  "expected": "a    | 2\nlong | -3\n"
+}

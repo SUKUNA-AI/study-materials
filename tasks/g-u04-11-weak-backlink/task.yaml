@@ -1,0 +1,30 @@
+id: g-u04-11-weak-backlink
+version: 2
+title: Свяжи узлы без цикла сильного владения
+unit: U04
+module: M1.2
+step: U04.S82
+kind: cpp
+std: c++23
+points: 4
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: void link_nodes(const std::shared_ptr<Node>& parent, const std::shared_ptr<Node>&
+    child)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true

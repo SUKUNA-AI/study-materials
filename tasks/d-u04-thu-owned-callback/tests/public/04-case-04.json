@@ -1,0 +1,20 @@
+{
+  "name": "case-04",
+  "size": "JSON=29 bytes",
+  "points": 1,
+  "input": {
+    "factor": -2,
+    "xs": [
+      -3,
+      5
+    ]
+  },
+  "expected": {
+    "callable": true,
+    "source_empty": true,
+    "values": [
+      6,
+      -10
+    ]
+  }
+}

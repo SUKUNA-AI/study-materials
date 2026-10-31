@@ -1,0 +1,14 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "value": -3
+  },
+  "expected": {
+    "two_owners": true,
+    "independent": true,
+    "value": -3,
+    "unchanged": true
+  }
+}

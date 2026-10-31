@@ -1,0 +1,28 @@
+id: l02-copy-file
+version: 3
+title: Скопируй файл при коротком вводе-выводе
+unit: U03
+module: M1.2
+step: U03.S71
+kind: linux
+std: c++23
+points: 20
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: std::size_t lab::copy_file(const char*, const char*, IoOps)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 3000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags: []
+  link: []
+  sanitizers: true

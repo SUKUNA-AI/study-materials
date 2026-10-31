@@ -1,0 +1,25 @@
+{
+  "name": "case-03",
+  "size": "JSON=60 bytes",
+  "points": 1,
+  "input": {
+    "dst": [
+      8,
+      9
+    ],
+    "src": [
+      1,
+      2,
+      3
+    ],
+    "fail": 1,
+    "alias": false
+  },
+  "expected": {
+    "values": [
+      8,
+      9
+    ],
+    "threw": true
+  }
+}

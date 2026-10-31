@@ -1,0 +1,11 @@
+{
+  "name": "case-04",
+  "size": "случай 4",
+  "points": 1,
+  "input": {
+    "v": [
+      0
+    ]
+  },
+  "expected": 0
+}

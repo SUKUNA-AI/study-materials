@@ -1,0 +1,13 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "value": 0,
+    "fallback": 8
+  },
+  "expected": {
+    "value": 0,
+    "preserved": true
+  }
+}

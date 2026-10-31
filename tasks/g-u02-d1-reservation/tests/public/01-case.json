@@ -1,0 +1,15 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "balance": 10,
+    "held": 3,
+    "amount": 4
+  },
+  "expected": {
+    "ok": true,
+    "balance": 10,
+    "held": 7
+  }
+}

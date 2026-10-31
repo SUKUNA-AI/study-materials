@@ -1,0 +1,12 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "values": []
+  },
+  "expected": {
+    "sum": 0,
+    "ownership_unchanged": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "case-04",
+  "size": "JSON=34 bytes",
+  "points": 1,
+  "input": {
+    "dst": 4,
+    "src": 9,
+    "self": true
+  },
+  "expected": {
+    "dst": 4,
+    "src": 4,
+    "old": null,
+    "same_objects": true,
+    "live_after": 0
+  }
+}

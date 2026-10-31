@@ -1,0 +1,15 @@
+{
+  "name": "02-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "a": null,
+    "b": 9,
+    "same": false
+  },
+  "expected": {
+    "a": 9,
+    "b": null,
+    "same_blocks": true
+  }
+}

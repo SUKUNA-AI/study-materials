@@ -1,0 +1,12 @@
+{
+  "name": "case-04",
+  "size": "JSON=19 bytes",
+  "points": 1,
+  "input": {
+    "text": "1048577"
+  },
+  "expected": {
+    "ok": false,
+    "error": "range"
+  }
+}

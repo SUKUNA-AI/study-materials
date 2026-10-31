@@ -1,0 +1,29 @@
+id: g-u02-d2-clock-order
+version: 2
+title: Лексикографическое сравнение времени
+unit: U02
+module: M1.1
+step: U02.S91
+kind: cpp
+std: c++23
+points: 6
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: int compare_clock(Clock a, Clock b)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true

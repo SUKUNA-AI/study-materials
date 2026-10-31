@@ -1,0 +1,10 @@
+{
+  "name": "02-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "value": 0,
+    "fallback": 9
+  },
+  "expected": 0
+}

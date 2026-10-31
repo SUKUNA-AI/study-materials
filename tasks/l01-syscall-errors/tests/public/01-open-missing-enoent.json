@@ -1,0 +1,22 @@
+{
+  "name": "open-missing-enoent",
+  "size": "open несуществующего",
+  "points": 2,
+  "input": {
+    "case": "check_errno",
+    "scenarios": [
+      "open_missing"
+    ]
+  },
+  "expected": {
+    "result": {
+      "results": [
+        {
+          "errno": "ENOENT",
+          "category": "generic",
+          "what_has": true
+        }
+      ]
+    }
+  }
+}

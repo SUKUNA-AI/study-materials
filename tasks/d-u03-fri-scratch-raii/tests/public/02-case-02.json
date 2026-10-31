@@ -1,0 +1,15 @@
+{
+  "name": "case-02",
+  "size": "JSON=27 bytes",
+  "points": 1,
+  "input": {
+    "v": [
+      7
+    ],
+    "cancel": false
+  },
+  "expected": {
+    "sum": 7,
+    "cancelled": false
+  }
+}

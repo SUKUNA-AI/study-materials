@@ -1,0 +1,28 @@
+id: l08-argv-environment
+version: 2
+title: Разбери аргументы с резервом из окружения
+unit: U04
+module: M1.2
+step: U04.S62
+kind: linux
+std: c++23
+points: 28
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: lab::Config lab::parse_config(int,const char* const*)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 3000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags: []
+  link: []
+  sanitizers: true

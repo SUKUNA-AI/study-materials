@@ -1,0 +1,23 @@
+{
+  "name": "case-02",
+  "size": "JSON=23 bytes",
+  "points": 1,
+  "input": {
+    "type": "i32",
+    "n": 3
+  },
+  "expected": {
+    "bytes": 12,
+    "allowed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  }
+}

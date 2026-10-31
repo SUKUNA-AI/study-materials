@@ -1,0 +1,22 @@
+{
+  "name": "case-03",
+  "size": "JSON=17 bytes",
+  "points": 1,
+  "input": {
+    "v": [
+      3,
+      -2,
+      3
+    ]
+  },
+  "expected": {
+    "values": [
+      3,
+      -2,
+      3
+    ],
+    "distinct": true,
+    "live_during": 3,
+    "live_after": 0
+  }
+}

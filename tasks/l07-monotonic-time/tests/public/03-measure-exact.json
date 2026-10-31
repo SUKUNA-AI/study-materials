@@ -1,0 +1,22 @@
+{
+  "name": "measure-exact",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "mode": "measure",
+    "start": [
+      10,
+      999999999
+    ],
+    "end": [
+      11,
+      1
+    ]
+  },
+  "expected": {
+    "ns": 2,
+    "clock_calls": 2,
+    "work_calls": 1,
+    "monotonic": true
+  }
+}

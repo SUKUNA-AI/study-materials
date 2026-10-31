@@ -1,0 +1,16 @@
+{
+  "name": "02-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "bytes": "abcdef",
+    "offset": 4,
+    "count": 9
+  },
+  "expected": {
+    "bytes": "ef",
+    "error": false,
+    "position_preserved": true,
+    "borrowed_open": true
+  }
+}

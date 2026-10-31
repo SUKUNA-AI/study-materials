@@ -1,0 +1,30 @@
+id: g-u01-09-row-totals
+version: 2
+title: Просуммируй строки плоской таблицы
+unit: U01
+module: M1.2
+step: U01.S62
+kind: cpp
+std: c++23
+points: 6
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: std::vector<std::int64_t> row_totals(const std::vector<int>& values,
+    std::size_t rows, std::size_t cols)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true

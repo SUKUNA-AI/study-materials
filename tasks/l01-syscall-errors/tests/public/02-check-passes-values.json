@@ -1,0 +1,29 @@
+{
+  "name": "check-passes-values",
+  "size": "6 значений",
+  "points": 1,
+  "input": {
+    "case": "check_ok",
+    "values": [
+      0,
+      1,
+      42
+    ]
+  },
+  "expected": {
+    "result": {
+      "results": [
+        {
+          "returned": 0
+        },
+        {
+          "returned": 1
+        },
+        {
+          "returned": 42
+        }
+      ],
+      "errno_untouched": true
+    }
+  }
+}

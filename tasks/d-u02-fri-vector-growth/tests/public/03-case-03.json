@@ -1,0 +1,20 @@
+{
+  "name": "case-03",
+  "size": "JSON=45 bytes",
+  "points": 1,
+  "input": {
+    "v": [
+      0,
+      -1,
+      0
+    ],
+    "delta": -6,
+    "marker": 102
+  },
+  "expected": [
+    -6,
+    -1,
+    0,
+    102
+  ]
+}

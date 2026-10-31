@@ -1,0 +1,29 @@
+id: g-u03-01-uppercase
+version: 2
+title: Посчитай заглавные ASCII-буквы
+unit: U03
+module: M1.2
+step: U03.S77
+kind: cpp
+std: c++23
+points: 6
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: std::size_t uppercase_count(std::string_view text)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true

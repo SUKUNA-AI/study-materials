@@ -1,0 +1,17 @@
+{
+  "name": "normal",
+  "size": "семантический сценарий",
+  "points": 2,
+  "input": {
+    "case": "fixture",
+    "text": "Name:\tworker\nVmSize:\t100 kB\nVmRSS:\t3 kB\nThreads:\t2\n"
+  },
+  "expected": {
+    "result": {
+      "rss_bytes": 3072,
+      "vm_bytes": 102400,
+      "threads": 2
+    },
+    "fd_leak": 0
+  }
+}

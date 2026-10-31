@@ -1,0 +1,10 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "text": "model.bin",
+    "suffix": ".bin"
+  },
+  "expected": true
+}

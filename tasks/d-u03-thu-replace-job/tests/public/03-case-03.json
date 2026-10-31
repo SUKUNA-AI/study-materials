@@ -1,0 +1,17 @@
+{
+  "name": "case-03",
+  "size": "JSON=38 bytes",
+  "points": 1,
+  "input": {
+    "dst": 3,
+    "src": null,
+    "self": false
+  },
+  "expected": {
+    "dst": null,
+    "src": null,
+    "old": 3,
+    "same_objects": true,
+    "live_after": 0
+  }
+}

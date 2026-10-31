@@ -1,0 +1,24 @@
+{
+  "name": "case-04",
+  "size": "JSON=100 bytes",
+  "points": 1,
+  "input": {
+    "id": 33,
+    "move": false,
+    "dismiss": false,
+    "dismiss_source": false,
+    "unwind": true,
+    "empty": false
+  },
+  "expected": {
+    "events": [
+      33
+    ],
+    "traits": [
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}

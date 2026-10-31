@@ -1,0 +1,14 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "value": 10,
+    "delta": 1,
+    "cap": 10
+  },
+  "expected": {
+    "ok": false,
+    "value": 10
+  }
+}

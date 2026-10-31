@@ -1,0 +1,17 @@
+{
+  "name": "04-case",
+  "size": "Учебная форма без измерения скорости",
+  "points": 1,
+  "input": {
+    "m": 3,
+    "n": 5,
+    "k": 0
+  },
+  "expected": {
+    "result": {
+      "mismatches": 0,
+      "canary_ok": true,
+      "inputs_unchanged": true
+    }
+  }
+}

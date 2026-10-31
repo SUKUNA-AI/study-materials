@@ -1,0 +1,13 @@
+{
+  "name": "would-block",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {},
+  "expected": {
+    "state": "would_block",
+    "bytes": "",
+    "error": "EAGAIN",
+    "calls": 1,
+    "borrowed_open": true
+  }
+}

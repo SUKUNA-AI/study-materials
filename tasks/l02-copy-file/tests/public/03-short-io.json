@@ -1,0 +1,15 @@
+{
+  "name": "short-io",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "size": 41,
+    "read_cap": 7,
+    "write_cap": 3
+  },
+  "expected": {
+    "copied": 41,
+    "equal": true,
+    "fd_delta": 0
+  }
+}

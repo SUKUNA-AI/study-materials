@@ -1,0 +1,23 @@
+{
+  "name": "case-04",
+  "size": "JSON=24 bytes",
+  "points": 1,
+  "input": {
+    "type": "bool",
+    "n": 7
+  },
+  "expected": {
+    "bytes": null,
+    "allowed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  }
+}

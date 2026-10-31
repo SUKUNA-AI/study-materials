@@ -1,0 +1,12 @@
+{
+  "name": "case-01",
+  "size": "JSON=12 bytes",
+  "points": 1,
+  "input": {
+    "text": ""
+  },
+  "expected": {
+    "ok": false,
+    "error": "empty"
+  }
+}

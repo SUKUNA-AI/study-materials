@@ -1,0 +1,15 @@
+{
+  "name": "end-of-file",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "eof": true
+  },
+  "expected": {
+    "state": "eof",
+    "bytes": "",
+    "error": "none",
+    "calls": 1,
+    "borrowed_open": true
+  }
+}

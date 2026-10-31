@@ -1,0 +1,36 @@
+{
+  "name": "case-03",
+  "size": "JSON=73 bytes",
+  "points": 1,
+  "input": {
+    "a": [
+      3,
+      -2,
+      3
+    ],
+    "b": [
+      0,
+      0,
+      0
+    ],
+    "tag_a": 2,
+    "tag_b": -3,
+    "self": false
+  },
+  "expected": {
+    "a": [
+      0,
+      0,
+      0
+    ],
+    "b": [
+      3,
+      -2,
+      3
+    ],
+    "tag_a": -3,
+    "tag_b": 2,
+    "same_storage": true,
+    "nothrow": true
+  }
+}

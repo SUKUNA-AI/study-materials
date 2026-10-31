@@ -1,0 +1,13 @@
+{
+  "name": "empty",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "size": 0
+  },
+  "expected": {
+    "copied": 0,
+    "equal": true,
+    "fd_delta": 0
+  }
+}

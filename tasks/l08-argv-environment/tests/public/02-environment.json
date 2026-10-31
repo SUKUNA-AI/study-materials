@@ -1,0 +1,14 @@
+{
+  "name": "environment",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "args": [],
+    "env_threads": "4",
+    "env_label": "training"
+  },
+  "expected": {
+    "threads": 4,
+    "label": "training"
+  }
+}

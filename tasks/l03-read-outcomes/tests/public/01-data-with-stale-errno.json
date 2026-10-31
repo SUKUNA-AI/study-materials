@@ -1,0 +1,15 @@
+{
+  "name": "data-with-stale-errno",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "data": "abc"
+  },
+  "expected": {
+    "state": "data",
+    "bytes": "abc",
+    "error": "none",
+    "calls": 1,
+    "borrowed_open": true
+  }
+}

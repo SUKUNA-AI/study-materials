@@ -1,0 +1,9 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "state": 0
+  },
+  "expected": "queued"
+}

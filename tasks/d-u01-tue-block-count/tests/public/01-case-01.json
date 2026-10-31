@@ -1,0 +1,10 @@
+{
+  "name": "case-01",
+  "size": "JSON=23 bytes",
+  "points": 1,
+  "input": {
+    "n": "0",
+    "block": 32
+  },
+  "expected": "0"
+}

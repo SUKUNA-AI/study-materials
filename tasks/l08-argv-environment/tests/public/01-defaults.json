@@ -1,0 +1,12 @@
+{
+  "name": "defaults",
+  "size": "небольшой детерминированный сценарий",
+  "points": 2,
+  "input": {
+    "args": []
+  },
+  "expected": {
+    "threads": 1,
+    "label": "run"
+  }
+}

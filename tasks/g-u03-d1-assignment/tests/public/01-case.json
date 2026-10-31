@@ -1,0 +1,14 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "text": " key = value "
+  },
+  "expected": {
+    "value": [
+      "key",
+      "value"
+    ]
+  }
+}

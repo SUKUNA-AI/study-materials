@@ -1,0 +1,14 @@
+{
+  "name": "01-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "parent": true,
+    "child": true
+  },
+  "expected": {
+    "forward": true,
+    "backward": true,
+    "live_after": 0
+  }
+}

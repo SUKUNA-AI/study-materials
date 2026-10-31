@@ -1,0 +1,13 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "text": "xpre-",
+    "prefix": "pre-"
+  },
+  "expected": {
+    "text": "xpre-",
+    "offset": 0
+  }
+}

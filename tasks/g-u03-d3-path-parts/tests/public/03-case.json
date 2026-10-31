@@ -1,0 +1,22 @@
+{
+  "name": "03-case",
+  "size": "Детерминированный контрактный пример",
+  "points": 1,
+  "input": {
+    "text": "./a/../b"
+  },
+  "expected": [
+    {
+      "part": "a",
+      "offset": 2
+    },
+    {
+      "part": "..",
+      "offset": 4
+    },
+    {
+      "part": "b",
+      "offset": 7
+    }
+  ]
+}

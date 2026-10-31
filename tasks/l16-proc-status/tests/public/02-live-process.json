@@ -1,0 +1,14 @@
+{
+  "name": "live-process",
+  "size": "семантический сценарий",
+  "points": 2,
+  "input": {
+    "case": "live"
+  },
+  "expected": {
+    "result": {
+      "valid": true
+    },
+    "fd_leak": 0
+  }
+}

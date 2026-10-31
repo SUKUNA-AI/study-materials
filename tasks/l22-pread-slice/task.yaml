@@ -1,0 +1,30 @@
+id: l22-pread-slice
+version: 2
+title: Прочитай срез без изменения позиции файла
+unit: U03
+module: M1.2
+step: U03.S73
+kind: linux
+std: c++23
+points: 8
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: std::string read_slice(int fd, off_t offset, std::size_t count, PreadFn
+    rd)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true

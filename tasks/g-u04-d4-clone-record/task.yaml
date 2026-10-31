@@ -1,0 +1,29 @@
+id: g-u04-d4-clone-record
+version: 2
+title: Клонируй составной владеющий объект
+unit: U04
+module: M1.1
+step: U04.S98
+kind: cpp
+std: c++23
+points: 6
+scoring: sum
+solution:
+  file: solution.cpp
+  signature: std::unique_ptr<Record> clone_record(const Record& source)
+mode: harness
+checker: json
+float:
+  abs: 0
+  rel: 0
+limits:
+  time_ms: 2000
+  memory_mb: 256
+  pids: 8
+  output_kb: 64
+  compile_s: 60
+build:
+  flags:
+  - -Werror
+  link: []
+  sanitizers: true
